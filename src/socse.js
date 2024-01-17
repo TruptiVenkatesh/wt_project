@@ -28,7 +28,7 @@ const Socse = () => {
   return (
     <div className="socse-container">
       <div className='heading'>
-        <h1>Welcome to School of Computer Science and Engineering</h1>
+        <h1>Welcome to Board of Studies</h1>
       </div>
       <div className="sidebar">
         <h2>Select Batch</h2>

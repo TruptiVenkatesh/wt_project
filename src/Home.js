@@ -383,9 +383,9 @@ const Home = ({ userRole }) => {
         <img src={klefullphoto} alt="Kletech Company Logo" className="logo2" />
         <nav className="navbar">
           <div className='navbut'>
-             <button className="search">About</button>
-             <button className="search">Programs</button>
-            <button className="search">Academics</button>
+             
+            
+            
              <div className="dropdown" onClick={handleDepartmentClick}>
                <button className="search">Department</button>
              {showDepartmentDropdown && (
@@ -398,14 +398,15 @@ const Home = ({ userRole }) => {
                 </div>
               )}
             </div>
-            <button className="search">Placement</button>
-            <button className="search">Search</button>
+           
           </div>
         </nav>
       </header>
 
       <div className='userCont'>
-        <h2>Welcome, {userRole}!</h2>
+        <h2>Welcome  {userRole}</h2>
+
+        <p>The Board of Studies (BoS) is the basic constituent of the academic system of an Institute. Its functions will include framing the content of various courses, reviewing and updating the content from time to time, introducing new courses of study </p>
 
         {userRole === 'admin@gmail.com' && (
           <button className="editButton" onClick={handleEditClick}>
